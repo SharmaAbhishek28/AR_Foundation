@@ -23,16 +23,14 @@ public class IManager : MonoBehaviour
     void Update()
     {
         CrosshairCalculation();
+        touch = Input.GetTouch(0);
 
-
-        if (Input.GetMouseButtonDown(0))
-        {
-            if (Input.touchCount < 0 || touch.phase != TouchPhase.Began)
+        if (Input.touchCount < 0 || touch.phase != TouchPhase.Began)
                 return;
-            if (IsPointerOverUI(touch)) return;
+        if (IsPointerOverUI(touch)) return;
 
             Instantiate(DataHandler.Instance.furniture, pose.position, pose.rotation);
-        }
+       
     }
 
     bool IsPointerOverUI(Touch touch)

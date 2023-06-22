@@ -137,7 +137,7 @@ GameObject:
   - component: {fileID: 76283513}
   - component: {fileID: 76283512}
   m_Layer: 5
-  m_Name: RawImage (5)
+  m_Name: Cup
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -183,7 +183,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Texture: {fileID: 0}
+  m_Texture: {fileID: 2800000, guid: 3d691f0abaa06a84292637f4bf4d7632, type: 3}
   m_UVRect:
     serializedVersion: 2
     x: 0
@@ -210,7 +210,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2aa2502289699fd4696522695dab8e37, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  furniture: {fileID: 0}
+  furniture: {fileID: 4464503522228995518, guid: fe3dc0b59b3b43e4a8e3c6da35233241,
+    type: 3}
 --- !u!114 &76283513
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -381,7 +382,7 @@ GameObject:
   - component: {fileID: 348371571}
   - component: {fileID: 348371570}
   m_Layer: 0
-  m_Name: GameObject
+  m_Name: DataManager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -399,7 +400,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: abbfa116bcf825649897815b6fe56d56, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  furniture: {fileID: 0}
+  furniture: {fileID: 3221558411045644627, guid: b0fbd4717a1b1f14492dcb3aac7edc8f,
+    type: 3}
 --- !u!4 &348371571
 Transform:
   m_ObjectHideFlags: 0
@@ -659,7 +661,7 @@ GameObject:
   - component: {fileID: 572923259}
   - component: {fileID: 572923258}
   m_Layer: 5
-  m_Name: RawImage (2)
+  m_Name: Floor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -705,7 +707,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Texture: {fileID: 0}
+  m_Texture: {fileID: 2800000, guid: e8848b0212956ef4bbfab63865dbf36f, type: 3}
   m_UVRect:
     serializedVersion: 2
     x: 0
@@ -732,7 +734,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2aa2502289699fd4696522695dab8e37, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  furniture: {fileID: 0}
+  furniture: {fileID: 1317945371228741882, guid: 54348c046b1008146b95c2e586a4079e,
+    type: 3}
 --- !u!114 &572923259
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -971,7 +974,7 @@ GameObject:
   - component: {fileID: 1145037791}
   - component: {fileID: 1145037790}
   m_Layer: 5
-  m_Name: RawImage (7)
+  m_Name: Plate
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1017,7 +1020,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Texture: {fileID: 0}
+  m_Texture: {fileID: 2800000, guid: 6c5fff69d96febd4a9bd17aba67dc85e, type: 3}
   m_UVRect:
     serializedVersion: 2
     x: 0
@@ -1044,7 +1047,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2aa2502289699fd4696522695dab8e37, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  furniture: {fileID: 0}
+  furniture: {fileID: 3816276492448619946, guid: c067ebdf1d575fc41a2c7830367164e0,
+    type: 3}
 --- !u!114 &1145037791
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1103,7 +1107,7 @@ GameObject:
   - component: {fileID: 1211808201}
   - component: {fileID: 1211808200}
   m_Layer: 5
-  m_Name: RawImage (4)
+  m_Name: Sofa
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1149,7 +1153,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Texture: {fileID: 0}
+  m_Texture: {fileID: 2800000, guid: dd61125e742a88f40b1383c680e1ff6a, type: 3}
   m_UVRect:
     serializedVersion: 2
     x: 0
@@ -1176,7 +1180,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2aa2502289699fd4696522695dab8e37, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  furniture: {fileID: 0}
+  furniture: {fileID: 3221558411045644627, guid: b0fbd4717a1b1f14492dcb3aac7edc8f,
+    type: 3}
 --- !u!114 &1211808201
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1438,7 +1443,7 @@ GameObject:
   - component: {fileID: 1507923683}
   - component: {fileID: 1507923682}
   m_Layer: 5
-  m_Name: RawImage (6)
+  m_Name: Pot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1484,7 +1489,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Texture: {fileID: 0}
+  m_Texture: {fileID: 2800000, guid: 921e49f1cca89844aaed8a083a743e21, type: 3}
   m_UVRect:
     serializedVersion: 2
     x: 0
@@ -1511,7 +1516,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2aa2502289699fd4696522695dab8e37, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  furniture: {fileID: 0}
+  furniture: {fileID: 5866884930449477335, guid: 63e01af1018de16488e9b90e6c44f019,
+    type: 3}
 --- !u!114 &1507923683
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1707,7 +1713,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fa17d122634046b4a8e23048891fafc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_RaycastPrefab: {fileID: 0}
+  m_RaycastPrefab: {fileID: 572923254}
 --- !u!114 &1659859601
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1720,7 +1726,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e1760703bbd54c04488a8d10600262ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_PlanePrefab: {fileID: 0}
+  m_PlanePrefab: {fileID: 7323353460458800925, guid: 0b8113995c5d89c4b8101390d8edad55,
+    type: 3}
   m_DetectionMode: 1
 --- !u!1 &1699768136
 GameObject:
@@ -1883,7 +1890,7 @@ GameObject:
   - component: {fileID: 1931522607}
   - component: {fileID: 1931522606}
   m_Layer: 5
-  m_Name: RawImage (3)
+  m_Name: Pillow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1929,7 +1936,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Texture: {fileID: 0}
+  m_Texture: {fileID: 2800000, guid: 98b558e9b0cb8aa45ae012edaef3ee72, type: 3}
   m_UVRect:
     serializedVersion: 2
     x: 0
@@ -1956,7 +1963,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2aa2502289699fd4696522695dab8e37, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  furniture: {fileID: 0}
+  furniture: {fileID: 4057769121045825391, guid: 32e1a57e943a83440883338283fc43ba,
+    type: 3}
 --- !u!114 &1931522607
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2226,7 +2234,7 @@ GameObject:
   - component: {fileID: 2038771485}
   - component: {fileID: 2038771484}
   m_Layer: 5
-  m_Name: RawImage (1)
+  m_Name: Baunquet
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2272,7 +2280,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Texture: {fileID: 0}
+  m_Texture: {fileID: 2800000, guid: d90b7a7fea9930e438eac04fcf0a9aab, type: 3}
   m_UVRect:
     serializedVersion: 2
     x: 0
@@ -2299,7 +2307,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2aa2502289699fd4696522695dab8e37, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  furniture: {fileID: 0}
+  furniture: {fileID: 8817507235633556555, guid: 75ff4498f1b14364999d8a27db4d09bc,
+    type: 3}
 --- !u!114 &2038771485
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2358,7 +2367,7 @@ GameObject:
   - component: {fileID: 2062875261}
   - component: {fileID: 2062875260}
   m_Layer: 5
-  m_Name: RawImage
+  m_Name: Table
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2404,7 +2413,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Texture: {fileID: 0}
+  m_Texture: {fileID: 2800000, guid: d3527ef62e404bf469e340ac8f41ca3e, type: 3}
   m_UVRect:
     serializedVersion: 2
     x: 0
@@ -2431,7 +2440,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2aa2502289699fd4696522695dab8e37, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  furniture: {fileID: 0}
+  furniture: {fileID: 7368335656448155340, guid: 89ff398cfa894d446873dbb969c754bb,
+    type: 3}
 --- !u!114 &2062875261
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -18,4 +18,9 @@ public class DataHandler : MonoBehaviour
             return instance;
         }
     }
+
+    public GameObject GetFurniture()
+    {
+        return furniture;
+    }
 }
